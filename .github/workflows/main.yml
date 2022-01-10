@@ -1,3 +1,13 @@
+# This is ".github/workflows/gh-pages.yml" file.
+# This is an EXAMPLE of "GitHub Actions Workflow file".
+
+name: blazorapp1 github pages
+
+on:
+  push:
+    branches:
+      - master
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
